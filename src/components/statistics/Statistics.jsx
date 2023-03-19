@@ -3,7 +3,7 @@ import { StatisticsListItems } from './StatisticsListItem';
 export const Statistics = ({ data, title }) => {
   return (
     <section className="statistics">
-      {title && <h2 className="title"></h2>}
+      {title && <h2 className="title">{title}</h2>}
 
       <ul className="stat-list">
         {data.map(i => (
