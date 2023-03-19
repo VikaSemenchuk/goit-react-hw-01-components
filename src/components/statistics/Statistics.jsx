@@ -1,9 +1,9 @@
 import { StatisticsListItems } from './StatisticsListItem';
 
-export const Statistics = ({ data }) => {
+export const Statistics = ({ data, title }) => {
   return (
     <section className="statistics">
-      <h2 className="title">Upload stats</h2>
+      {title && <h2 className="title"></h2>}
 
       <ul className="stat-list">
         {data.map(i => (

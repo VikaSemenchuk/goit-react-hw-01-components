@@ -1,12 +1,19 @@
 import { Profile } from "./profile/Profile";
-import user from '../data/user.json'
 import { Statistics } from "./statistics/Statistics";
-import data from '../data/data.json'
+import { FriendList } from "./friends/FriendList";
+import { TransactionHistory } from "./transactionHistory/TransactionHistory";
+
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json'
+import transactions from '../data/transactions.json'
 
 export const App = () => {
   return <>
     <Profile user={user}/>
     <Statistics data={data} />
+    <FriendList friends={friends} />
+    <TransactionHistory transactions={transactions} />
   </>
   
 };
