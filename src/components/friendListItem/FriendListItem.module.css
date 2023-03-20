@@ -1,0 +1,20 @@
+.status_red {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: red;
+  opacity: 0.5;
+}
+.status_green {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: green;
+}
+
+.name {
+  color: #59575a;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: bold;
+}

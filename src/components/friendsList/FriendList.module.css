@@ -1,0 +1,18 @@
+.list {
+  display: grid;
+  justify-items: center;
+  gap: 15px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 20px 0 20px 15px;
+
+  width: 80%;
+
+  border-radius: 10px;
+  background-color: rgb(249, 237, 237);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}

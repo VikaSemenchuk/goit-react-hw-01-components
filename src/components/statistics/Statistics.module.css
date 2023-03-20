@@ -1,0 +1,29 @@
+.title {
+  font-size: 30px;
+  color: #585658;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.item {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.label {
+  padding-top: 10px;
+  font-weight: bold;
+  color: azure;
+}
+
+.percentage {
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: azure;
+}

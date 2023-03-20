@@ -1,0 +1,30 @@
+.transaction {
+  margin: 25px 0;
+  min-width: 400px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.transaction thead tr {
+  text-align: center;
+  background-color: #009879;
+  color: #ffffff;
+}
+.transaction th,
+.transaction td {
+  padding: 12px 15px;
+}
+.transaction tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.type {
+  text-align: left;
+}
+.transaction tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.transaction tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
