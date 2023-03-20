@@ -18,3 +18,10 @@
   font-weight: bold;
   font-weight: bold;
 }
+
+.avatar {
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: rgb(242, 223, 193);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
